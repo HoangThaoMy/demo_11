@@ -1,0 +1,221 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead {border: 0;font-family: inherit;font-size: 100%;font-style: inherit;font-weight: inherit;margin: 0;outline: 0;padding: 0;}
+:focus {outline: 0;}
+a {
+	text-decoration: none;
+	border: none !important\9;
+	*border: none !important;
+	color: #646363; 
+}
+a:hover {
+	opacity: 0.8;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+}
+a img {
+	border: none;
+}
+ul li {
+	list-style: none;
+}
+body {
+	text-align: center;
+	font-family: "Kozuka Gothic Pr6N";
+	font-size: 12px;
+	color: #000000;
+}
+.show_sp {
+	display: none;
+}
+.no_border {
+	border: none !important;
+}
+.no_margin {
+	margin: 0!important;
+}
+ .clearFix::after{
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+.inner {
+	width: 100%;
+	max-width: 964px;
+	min-width: 964px;
+	position: relative;
+	display: block;
+	clear: both;
+	text-align: left;
+	margin: auto;
+	padding: auto;
+}
+.inner2 {
+	width: 100%;
+	max-width: 983px;
+	min-width: 983px;
+	position: relative;
+	display: inline-block;
+	clear: both;
+	text-align: left;
+	margin-right: 25px;
+}
+.header {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	position: relative;
+	display: inline-block;
+	background: url(../images/bg_header.png) repeat-x left top;
+}
+.header p {
+	color: white;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.header_logo {
+	float: left;
+	margin-top: 33px;
+	width: 100%;
+	max-width: 310px;
+}
+div.header_info {
+	width: 100%;
+	max-width: 373px;
+	margin-top: 33px;
+	margin-left: 97px;
+	float: left;
+}
+img.header_info {
+	width: 100%;
+	max-width: 373px;
+	margin-bottom: 12px;
+}
+div.header_info ul {
+	width: 100%;
+	max-width: 373px;
+	position: relative;
+	display: block;
+}
+div.header_info ul li {
+	display: inline-block;
+	margin-right: 33px;
+}
+.header_phone {
+	width: 100%;
+	max-width: 156px;
+}
+.header_fax {
+	width: 100%;
+	max-width: 173px;
+}
+.header_mail {
+	float: right;
+	margin-right: 4px;
+	width: 100%;
+	max-width: 142px;
+	margin-top: 33px;
+}
+.nav {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: 60px;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	margin-top: 23px;
+}
+.nav ul {
+	width: 956px;
+	margin-left: 3px;
+	border-right: 1px solid #d9d9d9;
+	display: inline-block;
+	position: relative;
+	height: 60px;
+}
+.nav ul li {
+	width: 190px;
+	height: 60px;
+	float: left;
+	text-align: center;
+	border-left: 1px solid #d9d9d9;
+}
+.nav ul li a {
+	width: 188px;
+	height: 60px;
+	display: inline-block;
+	position: relative;
+}
+.nav ul li a:hover {
+	background: url(../images/menu_hover.png) repeat-x left top;
+	opacity: 1;
+}
+.nav ul li a img {
+	margin-top: 14px;
+}
+a.menu1 {
+	background: url(../images/menu_hover.png) repeat-x left top;
+}
+.banner {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	background: url(../images/bg_banner.png) repeat-x left top;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+.banner img {
+	width: 100%;
+	max-width: 961px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.content {
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+ul.group1 {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	margin-top: 28px;
+}
+ul.group1 li {
+	display: inline-block;
+	width: 100%;
+	max-width: 335px;
+	margin-right: 20px;
+}
+ul.group1 li p.title {
+	width: 100%;
+	max-width: 335px;
+	height: 45px;
+	line-height: 45px;
+	background: url(../images/bg_title.png) no-repeat;
+	padding-left: 38px;
+}
+ul.group1 li img {
+	width: 100%;
+	max-width: 335px;
+	margin-bottom: -2px;
+}
+ul.group1 li a {
+	width: 100%;
+	max-width: 297px;
+	height: 51px;
+	line-height: 51px;
+	padding-left: 38px;
+	background: url(../images/box.png);
+	position: relative;	
+	display: inline-block;
+	margin-top: -8px;
+	color: white;
+}
